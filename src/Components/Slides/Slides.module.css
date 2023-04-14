@@ -1,0 +1,6 @@
+.slides {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  position: relative;
+}

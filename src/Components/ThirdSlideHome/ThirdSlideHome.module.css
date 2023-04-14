@@ -1,0 +1,54 @@
+.wrapper {
+  margin-left: 31%;
+  font-family: DinPro;
+}
+.wrapper h2 {
+  top: -230px;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+  position: relative;
+}
+.table {
+  bottom: 80px;
+  right: 100px;
+  width: 710px;
+  height: 250px;
+  display: flex;
+  gap: 40px;
+  position: relative;
+}
+
+.container {
+  padding: 35px 25px 0 0;
+  border-radius: 40px;
+  border-bottom: 35px solid #fff;
+  font-weight: 300;
+
+  font-size: 25px;
+  color: #343434;
+  line-height: 1.4;
+  background: #ffffff;
+  box-shadow: -2px -2px 23px #d8d5d5;
+  overflow-y: hidden;
+}
+.container img {
+  top: -25px;
+  width: 70px;
+  position: absolute;
+}
+.calendar-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nutrition {
+  padding-left: 80px;
+  width: 500px;
+}
+.calendar {
+  padding-left: 40px;
+  width: 290px;
+  height: 135px;
+}

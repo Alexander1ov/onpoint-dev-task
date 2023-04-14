@@ -1,0 +1,19 @@
+.title {
+  margin-top: 170px;
+  color: #232323;
+  z-index: 2;
+  position: relative;
+}
+.header-text {
+  font-family: "Gilroy";
+  font-size: 27px;
+  letter-spacing: 3.5px;
+}
+.info-text b {
+  font-family: "Gilroy-ExtraBold";
+}
+.info {
+  font-family: "Gilroy-Light";
+  letter-spacing: 5px;
+  font-size: 109px;
+}

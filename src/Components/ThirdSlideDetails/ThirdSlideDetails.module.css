@@ -1,0 +1,84 @@
+.cover {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #4b6783;
+  opacity: 0.75;
+  position: absolute;
+  z-index: 1;
+}
+.wrapper {
+  right: 200px;
+  bottom: 288px;
+  margin-left: 31%;
+  padding: 35px 25px 0 200px;
+  width: 800px;
+  height: 570px;
+  border-radius: 40px;
+  border-bottom: 35px solid #fff;
+  color: #343434;
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+.wrapper h2 {
+  font-family: DinPro;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.close {
+  top: 40px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  position: absolute;
+}
+.close:before,
+.close:after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 45px;
+  background-color: #000;
+  left: 18px;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.table {
+  bottom: 80px;
+  right: 100px;
+  width: 710px;
+  height: 250px;
+  display: flex;
+  gap: 40px;
+  position: relative;
+}
+.container {
+  top: 100px;
+  width: 490px;
+  height: 265px;
+  font-family: DinPro;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.number {
+  margin-top: 12px;
+  font-family: "Gilroy-ExtraBold";
+  font-size: 24px;
+  color: #abd1ea;
+}

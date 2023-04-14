@@ -1,0 +1,38 @@
+.arrow {
+  left: 205px;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  gap: 15px;
+}
+
+.right,
+.left {
+  width: 13px;
+  height: 13px;
+  border: solid #000000;
+  border-width: 0 3px 3px 0;
+  background: none;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.pagination {
+  width: 11px;
+  height: 11px;
+  border: 1.5px solid #343434;
+  border-radius: 7px;
+  background-color: initial;
+}
+
+.active {
+  background-color: #e785b3;
+}

@@ -1,0 +1,38 @@
+.button {
+  width: 289px;
+  height: 81px;
+  border: none;
+  border-radius: 45px;
+  background-color: #e982aa;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  z-index: 5;
+}
+.circle {
+  margin-left: 13px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #242424;
+  box-shadow: 1px 1.5px 2.5px 1.5px #f5b8d0, -1px -1px 3px 3px #925973;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle img {
+  width: 32px;
+  height: 32px;
+}
+.circle p {
+  font-family: "Gilroy-Light";
+  font-size: 35px;
+  color: #fff;
+}
+
+.text {
+  letter-spacing: 0.5px;
+  font-size: 27px;
+  color: #242424;
+}

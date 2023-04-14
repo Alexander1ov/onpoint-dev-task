@@ -1,0 +1,25 @@
+.slide {
+  padding-top: 130px;
+  padding-left: 65px;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  display: inline-block;
+  background-image: url(../../images/background/background-three.jpg);
+}
+
+.brand {
+  margin-left: 30%;
+  color: #343434;
+  font-family: DinPro;
+  font-weight: 300;
+  font-size: 95px;
+  letter-spacing: 9px;
+  position: relative;
+  z-index: 3;
+}
+
+.brand b {
+  font-family: DinPro-bold;
+}

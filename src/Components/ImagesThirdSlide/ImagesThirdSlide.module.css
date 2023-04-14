@@ -1,0 +1,112 @@
+@keyframes first-anim {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(40px) translateY(55px);
+  }
+}
+.img-first {
+  top: 61px;
+  left: 201px;
+  width: 39px;
+  position: absolute;
+  z-index: 2;
+  animation: first-anim 8s linear infinite alternate;
+}
+
+@keyframes second-anim {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(10px) translateY(45px);
+  }
+}
+.img-second {
+  width: 67px;
+  top: 159px;
+  left: 193px;
+  position: absolute;
+  z-index: 4;
+  animation: second-anim 7s linear infinite alternate;
+}
+
+.img-third {
+  top: 204px;
+  left: 86px;
+  width: 40px;
+  position: absolute;
+  z-index: 2;
+  animation: second-anim 9s linear infinite alternate;
+}
+
+@keyframes fourth-anim {
+  0% {
+    transform: translateX(0) translateY(0) scale(1);
+  }
+  100% {
+    transform: translateX(40px) translateY(15px) scale(1.3);
+  }
+}
+.img-fourth {
+  top: 335px;
+  left: 193px;
+  width: 120px;
+  position: absolute;
+  z-index: 2;
+  animation: fourth-anim 5s linear infinite alternate;
+}
+
+.img-fifth {
+  top: 462px;
+  left: 13px;
+  width: 35px;
+  transform-origin: 80px 50px;
+  position: absolute;
+  z-index: 4;
+  animation: first-anim 9s linear infinite alternate;
+}
+
+.img-sixth {
+  bottom: 139px;
+  left: 25px;
+  width: 75px;
+  position: absolute;
+  z-index: 4;
+  animation: fourth-anim 8s linear infinite alternate;
+}
+
+.img-seventh {
+  bottom: 79px;
+  left: 247px;
+  width: 75px;
+  position: absolute;
+  z-index: 2;
+  animation: second-anim 8s linear infinite alternate;
+}
+
+@keyframes eighth-anim {
+  0% {
+    transform: translateX(0) translateY(0) scale(1);
+  }
+  100% {
+    transform: translateX(20px) translateY(10px) scale(1.1);
+  }
+}
+.img-eighth {
+  bottom: 0;
+  left: 230px;
+  width: 130px;
+  position: absolute;
+  z-index: 4;
+  animation: eighth-anim 3s linear infinite alternate;
+}
+
+.img-ninth {
+  bottom: 0;
+  left: 5px;
+  height: 770px;
+  position: absolute;
+  z-index: 3;
+}
