@@ -2,10 +2,12 @@
   font-family: "DinPro";
   src: url("./fonts/DinPro/dinpro.otf");
 }
+
 @font-face {
   font-family: "DinPro-light";
   src: url("./fonts/DinPro/dinpro_light.otf");
 }
+
 @font-face {
   font-family: "DinPro-bold";
   src: url("./fonts/DinPro/dinpro_bold.otf");
@@ -15,10 +17,12 @@
   font-family: "Gilroy";
   src: url("./fonts/Gilroy/gilroy-regular.ttf");
 }
+
 @font-face {
   font-family: "Gilroy-ExtraBold";
   src: url("./fonts/Gilroy/Gilroy-ExtraBold.otf");
 }
+
 @font-face {
   font-family: "Gilroy-Light";
   src: url("./fonts/Gilroy/Gilroy-Light.otf");
@@ -28,6 +32,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 * {
   box-sizing: border-box;
 }

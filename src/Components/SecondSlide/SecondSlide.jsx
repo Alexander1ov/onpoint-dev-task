@@ -1,11 +1,11 @@
 import React, { useRef, useState } from "react";
 
+import ImagesSecondSlide from "../ImagesSecondSlide/ImagesSecondSlide";
 import { text } from "../../text/text";
-import IMAGE from "../../images/secondSlide/imgSecondSlide.png";
 
 import style from "./SecondSlide.module.css";
 
-const SecondSlide = () => {
+const SecondSlide = ({ currentPage }) => {
   const [valueInput, setValueInput] = useState(0);
   const scroll = useRef();
 
@@ -23,7 +23,7 @@ const SecondSlide = () => {
   };
   return (
     <section className={style.slide}>
-      <img src={IMAGE} alt="" />
+      <ImagesSecondSlide currentPage={currentPage} />
       <div className={style["header-text"]}>ТЕКСТ СООБЩЕНИЯ</div>
       <div className={style.info}>
         <input
@@ -34,8 +34,8 @@ const SecondSlide = () => {
         />
         <div className={style.container} ref={scroll}>
           <div className={style.text}>
-            <b>Lorem ipsum dolor sit amet,</b>
-            {text.textSecondSlide}
+            <b>{text.textSecondSlide.name}</b>
+            {text.textSecondSlide.title}
           </div>
         </div>
       </div>

@@ -8,20 +8,22 @@
   position: absolute;
   z-index: 1;
 }
+
 .wrapper {
-  right: 200px;
-  bottom: 288px;
+  right: 64px;
+  bottom: 70px;
   margin-left: 31%;
-  padding: 35px 25px 0 200px;
+  padding: 20px 25px 0 200px;
   width: 800px;
   height: 570px;
   border-radius: 40px;
   border-bottom: 35px solid #fff;
   color: #343434;
   background: #ffffff;
-  position: relative;
+  position: absolute;
   z-index: 1;
 }
+
 .wrapper h2 {
   font-family: DinPro;
   font-weight: 300;
@@ -38,6 +40,7 @@
   cursor: pointer;
   position: absolute;
 }
+
 .close:before,
 .close:after {
   position: absolute;
@@ -47,9 +50,11 @@
   background-color: #000;
   left: 18px;
 }
+
 .close:before {
   transform: rotate(45deg);
 }
+
 .close:after {
   transform: rotate(-45deg);
 }
@@ -63,6 +68,7 @@
   gap: 40px;
   position: relative;
 }
+
 .container {
   top: 100px;
   width: 490px;

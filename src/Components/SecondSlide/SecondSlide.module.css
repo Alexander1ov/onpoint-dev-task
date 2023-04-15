@@ -7,23 +7,6 @@
   display: inline-block;
   background-image: url(../../images/background/background-two.jpg);
 }
-@keyframes move {
-  0% {
-    transform: translateX(60%) translateY(20%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0) translateY(0);
-    opacity: 1;
-  }
-}
-.slide img {
-  top: 80px;
-  right: 0;
-  width: 650px;
-  position: absolute;
-  animation: move 3s ease-in-out;
-}
 
 .header-text {
   width: 190px;
@@ -53,6 +36,7 @@
   background: #242424e1;
   border-radius: 2.5px;
 }
+
 .input::-webkit-slider-thumb {
   top: -7.5px;
   width: 98px;
@@ -76,11 +60,13 @@
   box-shadow: -2px -2px 23px #eae8e8, inset 1px -10px 20px 50px #fff;
   overflow-y: hidden;
 }
+
 .text {
   font-family: DinPro;
   font-size: 22px;
   color: #242424e1;
 }
+
 .text b {
   font-family: DinPro-bold;
 }

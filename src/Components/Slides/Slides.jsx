@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
 
 import FirstSlide from "../FirstSlide/FirstSlide";
 import SecondSlide from "../SecondSlide/SecondSlide";
@@ -7,16 +7,16 @@ import ThirdSlide from "../ThirdSlide/ThirdSlide";
 import style from "./Slides.module.css";
 
 const Slides = ({ currentPage, setCurrentPage }) => {
-  const [coordinateX, setCoordinateX] = useState(0);
+  const coordinateX = useRef(0);
 
   const handleStart = (e) => {
     const touchStart = Math.ceil(e.changedTouches[0].clientX);
-    setCoordinateX(touchStart);
+    coordinateX.current = touchStart;
   };
 
   const handleEnd = (e) => {
     const touchEnd = Math.ceil(e.changedTouches[0].clientX);
-    let xDifference = coordinateX - touchEnd;
+    let xDifference = coordinateX.current - touchEnd;
     if (xDifference > 50 && currentPage <= 1) {
       setCurrentPage(currentPage + 1);
     }
@@ -36,7 +36,7 @@ const Slides = ({ currentPage, setCurrentPage }) => {
       onTouchEnd={handleEnd}
     >
       <FirstSlide setCurrentPage={setCurrentPage} />
-      <SecondSlide />
+      <SecondSlide currentPage={currentPage} />
       <ThirdSlide />
     </div>
   );

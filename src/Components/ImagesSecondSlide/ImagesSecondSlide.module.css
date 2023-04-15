@@ -1,0 +1,65 @@
+@keyframes move {
+  0% {
+    transform: translateX(60%) translateY(40%);
+    opacity: 0;
+    scale: 0.9;
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+    scale: 1;
+  }
+}
+img{
+  position: absolute;
+}
+
+.img-first {
+  top: 85px;
+  right: 0;
+  width: 305px;
+  position: absolute;
+}
+
+.img-second {
+  top: 97px;
+  right: 0;
+  width: 455px;
+  position: absolute;
+}
+
+.img-third {
+  top: 113px;
+  right: 0;
+  width: 650px;
+  position: absolute;
+}
+
+.img-fourth {
+  top: 435px;
+  right: 0;
+  width: 129px;
+  position: absolute;
+}
+
+.img-fifth {
+  top: 547px;
+  right: -30px;
+  width: 176px;
+  position: absolute;
+}
+.first-anim{
+  animation: move 3s ease-in-out;
+}
+.second-anim{
+  animation: move 3.5s ease-in-out;
+}
+.third-anim{
+  animation: move 3s ease-in-out;
+}
+.fourth-anim{
+  animation: move 2s ease-in-out;
+}
+.fifth-anim{
+  animation: move 1.5s ease-in-out;
+}

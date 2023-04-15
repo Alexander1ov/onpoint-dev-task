@@ -20,13 +20,11 @@ const ThirdSlideDetails = ({ handleDetails }) => {
         <h2>ПРЕИМУЩЕСТВА</h2>
         <div className={style.close} onClick={handleDetails}></div>
         <div className={style.container}>
-          {sliceText.map((elem, key) => (
-            <>
-              <div className={style.number} key={elem.id}>
-                {elem.id < 10 ? `0${elem.id}` : elem.id}
-              </div>
-              <div key={key}>{elem.title}</div>
-            </>
+          {sliceText.map((elem) => (
+            <div key={elem.id}>
+              <div className={style.number}>{elem.id}</div>
+              <div>{elem.title}</div>
+            </div>
           ))}
         </div>
         <Arrows sumPage={sumPage} currentPage={page} setCurrentPage={setPage} />

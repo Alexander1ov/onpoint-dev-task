@@ -17,11 +17,8 @@ const ThirdSlide = () => {
       <h2 className={style.brand}>
         BREND<b>XY</b>
       </h2>
-      {details ? (
-        <ThirdSlideDetails handleDetails={handleDetails} />
-      ) : (
-        <ThirdSlideHome handleDetails={handleDetails} />
-      )}
+      <ThirdSlideHome handleDetails={handleDetails} />
+      {details && <ThirdSlideDetails handleDetails={handleDetails} />}
     </section>
   );
 };

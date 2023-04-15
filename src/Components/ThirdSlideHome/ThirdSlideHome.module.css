@@ -3,7 +3,8 @@
   font-family: DinPro;
 }
 .wrapper h2 {
-  top: -230px;
+  top: -237px;
+  left: -2px;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -51,4 +52,7 @@
   padding-left: 40px;
   width: 290px;
   height: 135px;
+}
+.button {
+  z-index: 1;
 }
