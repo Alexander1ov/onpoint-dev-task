@@ -19,7 +19,7 @@ const Arrows = ({ sumPage, currentPage, setCurrentPage }) => {
 
   return (
     <div className={style.arrow}>
-      <button
+      <div
         className={style.left}
         onClick={() => {
           handlePage("left");
@@ -48,7 +48,7 @@ const Arrows = ({ sumPage, currentPage, setCurrentPage }) => {
           );
         }
       })}
-      <button
+      <div
         className={style.right}
         onClick={() => {
           handlePage("right");

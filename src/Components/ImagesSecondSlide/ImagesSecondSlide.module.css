@@ -4,62 +4,65 @@
     opacity: 0;
     scale: 0.9;
   }
+
   100% {
     transform: translateX(0) translateY(0);
     opacity: 1;
     scale: 1;
   }
 }
-img{
-  position: absolute;
-}
 
 .img-first {
   top: 85px;
-  right: 0;
-  width: 305px;
+  right: -143px;
+  width: 424px;
   position: absolute;
 }
 
 .img-second {
   top: 97px;
-  right: 0;
-  width: 455px;
+  right: -358px;
+  width: 772px;
   position: absolute;
 }
 
 .img-third {
   top: 113px;
-  right: 0;
-  width: 650px;
+  right: -512px;
+  width: 1132px;
   position: absolute;
 }
 
 .img-fourth {
   top: 435px;
-  right: 0;
-  width: 129px;
+  right: -625px;
+  width: 752px;
   position: absolute;
 }
 
 .img-fifth {
   top: 547px;
-  right: -30px;
-  width: 176px;
+  right: -204px;
+  width: 332px;
   position: absolute;
 }
-.first-anim{
+
+.first-anim {
   animation: move 3s ease-in-out;
 }
-.second-anim{
+
+.second-anim {
   animation: move 3.5s ease-in-out;
 }
-.third-anim{
+
+.third-anim {
   animation: move 3s ease-in-out;
 }
-.fourth-anim{
+
+.fourth-anim {
   animation: move 2s ease-in-out;
 }
-.fifth-anim{
+
+.fifth-anim {
   animation: move 1.5s ease-in-out;
 }

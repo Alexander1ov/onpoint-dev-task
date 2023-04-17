@@ -3,4 +3,6 @@
   flex-direction: row;
   width: max-content;
   position: relative;
+  background-size: cover;
+  background-image: url(../../images/background/background.jpg);
 }
